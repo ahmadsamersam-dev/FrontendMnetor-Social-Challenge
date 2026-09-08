@@ -46,6 +46,7 @@ grid-template-areas:
 {
   .content{
     display: flex;
+    flex-direction: column;
     padding:0;
   }
   .page{
@@ -239,7 +240,7 @@ margin-right: auto;
 .photos :last-child{
   background-image: url(../Photos/bg-pattern-bottom-desktop.svg);
   width: 870px;
-  height: 450px;
+  min-height: 450px;
   position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
